@@ -1,0 +1,72 @@
+.modal__controler--editDepartment{
+  padding: 0rem;
+  border: none;
+  border-radius: 8px;
+  width: 506px;
+  height: 330px;
+  top: 8.4%;
+  left: calc(50% - 506px/2);
+  animation: apperFromTop var(--animation-duration) var(--animation-type);
+}
+
+.modal__controler--editDepartment::backdrop{
+  background-color: rgba(33, 37, 41, 0.5);
+}
+
+.modal__container--update{
+  padding: 39px 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  gap: 12px;
+}
+
+.closeUpdateModal{
+  background-color:var(--color-mode) ;
+  border:0px;
+  color: var(--color-black);
+  font-family:var(--font-secundary) ;
+  font-size: 1.75rem;
+  cursor: pointer;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 430px;
+  top: 8px;
+}
+h1{
+  font-family: var(--font-third);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+#descriptionUpdate{
+   width: 422px;
+  height: 113px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 18px;
+  color:rgba(0, 0, 0, 0.5);
+  padding: 17px;
+  
+}
+
+.save_-button{
+  width: 422px;
+  height: 52px;
+  background-color: var(--color-action-1);
+  border: 1px solid var(--color-action-1);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 18px;
+  color:var(--color-mode);
+  position: absolute;
+left: 8.5%;
+right: 8.1%;
+top: 93%;
+bottom: 11.19%;
+cursor: pointer;
+}

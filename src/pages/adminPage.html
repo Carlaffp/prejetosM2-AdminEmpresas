@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/src/styles/adminPage.css" />
+    <link rel="stylesheet" href="/src/styles/toast.css">
+    <link rel="stylesheet" href="/src/styles/creatModal.css">
+    <link rel="stylesheet" href="/src/styles/completModal.css">
+    <link rel="stylesheet" href="/src/styles/deleteDepartment.css">
+    <link rel="stylesheet" href="/src/styles/updateDepartment.css">
+    <link rel="stylesheet" href="/src/styles/updateUser.css">
+    <link rel="stylesheet" href="/src/styles/deleteUser.css">
+
+    <title>Admin Page</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <div class="div__logo">
+        <img src="/src/img/Ellipse 1 .svg" alt="">
+        <img src="../img/logo.svg" alt="" />
+      </div>
+      <div class="divLogout">
+        <button class="logout__button" type="submit">Logout</button>
+      </div>
+    </header>
+    <main>
+      <div class="divSelect">
+        <select class="selectCompany" name="selectCompany" id="selectCompany">
+          <option value="all">Selecionar Empresa</option>
+          
+        </select>
+      </div>
+      <div class="divDepartment">
+        <h1>Departamentos</h1>
+        <button class="creat__button">+ Criar</button>
+      </div>
+      <section class="department__controler">
+        <ul class="ulDepartment"></ul>
+      </section>
+      <section class="user__controler">
+        <h1 class="title">Usuários cadastrados</h1>
+        <div class="usersList">
+          <ul class="ulUsers"></ul>
+        </div>
+      </section>
+    </main>
+    <dialog class="modal__controler--department">
+      <div class="div__modalControler">
+        <div>
+          <button class="closeCompleteModal">X</button>
+        </div>
+        <div class="divModal" >
+          <h1 class="departmentsName"></h1>
+          <h3 class="description"></h3>
+          <p class="companiesName"></p>
+        </div>
+        <div>
+          <select class="userSelect" name="userSelect" id="userselect">
+            <option  value="">Selecionar usuário</option>
+          </select>
+
+          <button class="admissUser">Contratar</button>
+        </div>
+        <div>
+          <ul class="users">
+          </ul>
+        </div>
+      </div>
+    </dialog>
+    <dialog class="modal__controler--newDepartment">
+      <div class="modal__container">
+        <div>
+          <button class="closeModal">X</button>
+        </div>
+        <h1>Criar Departamento</h1>
+        <input
+          name="name"
+          type="text"
+          class="inputNewDepartment"
+          placeholder="Nome do departamento"
+        />
+        <input
+          name="description"
+          type="text"
+          class="inputNewDepartment"
+          placeholder="Descrição"
+        />
+        <select class="selectCompanyModal" name="selectCompany" id="selectCompany">
+          <option value="">Selecionar empresa</option>
+        </select>
+        <div>
+          <button class="creat__button--modal">Criar</button>
+        </div>
+      </div>
+      
+    </dialog>
+    <dialog class="modal__controler--editDepartment">
+      <div class="modal__container--update"> 
+        <div>
+          <button class="closeUpdateModal">X</button>
+        </div>
+        <h1>Editar Departamento</h1>
+        <textarea name="description" id="descriptionUpdate" cols="30" rows="10" placeholder="Valores anteriores da descrição"></textarea>
+        <button class="save_-button">Salvar</button>
+      </div>
+    </dialog>
+    <dialog class="modal__controler--editEmployee">
+      <div class="divUpdateEmployee">
+        <div>
+          <button class="closeUpdateUser">X</button>
+        </div>
+        <h1>Editar Usuário</h1>
+        <input name="name" type="text" class="inputUser" placeholder="Nome" />
+        <input
+          name="email"
+          type="email"
+          class="inputUser"
+          placeholder="E-mail"
+        />
+
+        <button class="saveUpdate">Salvar</button>
+      </div>
+    </dialog>
+    <dialog class="modal__controler--deleteDepartment">
+      <div class="divDeleteModal">
+        <h2 class="h2"></h2>
+        <div>
+          <button class="closeDeleteButton">X</button>
+        </div>
+        <h2></h2>
+        <button class="removeDepartment">Remover</button>
+      </div>
+    </dialog>
+    <dialog class="modal__controler--deleteUser">
+      <div class="divControlerDeleteUser">
+        <div>
+          <button class="closeUserDelete">X</button>
+        </div>
+        <h2 class="h2information"></h2>
+        <button class="deleteUserButton">Remover</button>
+      </div>
+    </dialog>
+    
+    <div class="toast__container hidden">
+      <p class="toastP"></p>
+    </div>
+    <script type="module" src="/src/script/adminPage.js"></script>
+    <script type="module" src="/src/script/creatModal-admin.js"></script>
+    <script type="module" src="/src/script/updateDepartment.js"></script>
+    <script type="module" src="/src/script/deleteDepartment.js"></script>
+    <script type="module" src="/src/script/updateUser.js"></script>
+  </body>
+</html>

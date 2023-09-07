@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/src/styles/globalStyles.css">
+<link rel="stylesheet" href="/src/styles/index.css">
+
+  <title>Home Page</title>
+</head>
+<body>
+<header class="header__container">
+  <div class="div__logo">
+    <img src="/src/img/Ellipse 1 .svg" alt="">
+    <img src="./src/img/logo.svg" alt="logo">
+  </div>
+  <div class="div__buttons">
+    <button type="submit" class="login__button">Login</button>
+    <button type="submit" class="register__button">Cadastro</button>
+  </div>
+</header>
+<main>
+  <section class="img__section">
+    <img class="img" src="./src/img/imgHome.png" alt="">
+  </section>
+  
+    <section class="main__section">
+      <div class="select__div">
+        <label for="setor"></label>
+        <select name="setor" id="setor" >
+          <option value="">Selecionar Setor</option>
+          <option value="all">Todos</option>
+          <option value="varejo">Varejo</option>
+          <option value="textil">Textil</option>
+          <option value="manufatura">Manufatura</option>
+          <option value="aeroespacial">Aeroespacial</option>
+          <option value="alimenticio">Alimenticio</option>
+          <option value="ti">TI</option>
+          <option value="atacado">Atacado</option>
+          <option value="automotiva"> Automotiva</option>
+      </select> 
+    </div>
+    <section class="data__section">
+    <div>
+      <h1>Lista de Empresas</h1>
+    </div>
+    <div class="divList"></div>
+    </section>
+    </section>
+  
+</main>
+
+  <script type="module" src="./src/script/index.js"></script>
+</body>
+</html>

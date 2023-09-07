@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../styles/globalStyles.css">
+<link rel="stylesheet" href="/src/styles/toast.css">
+<link rel="stylesheet" href="../styles/login.css">
+
+  <title>Login Page</title>
+</head>
+<body>
+  <header class="header__container">
+    <div class="div__logo">
+      <img src="/src/img/Ellipse 1 .svg" alt="">
+      <img src="../img/logo.svg" alt="">
+    </div>
+    <div class="div__buttons">
+      <button class="home__button" type="submit">Home</button>
+      <button class="register__button" type="submit">Cadastro</button>
+    </div>
+  </header>
+  <main>
+    <div class="divLogin">
+      <h1>Login</h1>
+      <p>Preencha os campos para realizar login</p>
+      <input name="email" type="email" class="login__input" placeholder="Seu e-mail">
+      <input name="password" type="password" class="login__input" placeholder="Sua senha">
+      <button type="submit" class="submit__login">Login</button>
+      <p class="p">ou</p>
+      <button type="submit" class="register__button2">Cadastre-se</button>
+    </div>
+  </main>
+  <div class="toast__container hidden">
+    <p class="toastP"></p>
+  </div>
+  <script type="module" src="../script/login.js"></script>
+</body>
+</html>

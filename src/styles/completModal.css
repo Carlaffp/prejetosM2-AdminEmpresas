@@ -1,0 +1,137 @@
+.modal__controler--department{
+  padding: 0rem;
+  border: none;
+  border-radius: 8px;
+  width: 857px;
+  height: 637px;
+  top: 8.4%;
+  left: calc(50% - 857px/2);
+  animation: apperFromTop var(--animation-duration) var(--animation-type);
+}
+
+.modal__controler--department::backdrop{
+  background-color: rgba(33, 37, 41, 0.5);
+}
+
+.div__modalControler{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  gap: 12px;
+}
+
+.closeCompleteModal{
+  background-color:var(--color-mode) ;
+  border:0px;
+  color: var(--color-black);
+  font-family:var(--font-secundary) ;
+  font-size: 1.75rem;
+  cursor: pointer;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 760px;
+  top: 15px;
+}
+
+.divModal{
+  padding: 20px 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.departmentsName{
+  font-family: var(--font-third);
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-black);
+  padding-bottom: 20px;
+}
+.description{
+  font-family: var(--font-third);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-black);
+  padding-bottom: 11px;
+}
+
+.companiesName{
+  font-family: var(--font-third);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-black);
+}
+
+#userselect{
+   width: 565px;
+  height: 48px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 18px;
+  color:rgba(0, 0, 0, 0.5);
+  padding-left: 17px;
+  position: absolute;
+  left: 44px;
+  top: 200px;
+  cursor: pointer;
+  
+}
+
+.deleteButtonModalComplete{
+  width: 255px;
+  height: 48px;
+  background-color: var(--color-mode);
+  border: 1px solid var(--color-action-2);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 18px;
+  align-items: center;
+  color:var(--color-action-2);
+  margin-top: 45px;
+  cursor: pointer;
+}
+
+.admissUser{
+  width: 190px;
+  height: 48px;
+  background-color: var(--color-action-1);
+  border: 1px solid var(--color-action-1);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 18px;
+  color:var(--color-mode);
+  position: absolute;
+  left: 73.28%;
+  right: 4.55%;
+  top: 34%;
+  bottom: 8.87%;
+cursor: pointer;
+}
+.users{
+  width:775px ;
+  height:290px;
+  background-color: var(--color-grey-6);
+  margin-left: 43px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  padding: 37px 33px;
+  gap: 28px;
+}
+
+.liUsersModal{
+  list-style: none;
+  width: 306px;
+  height: 196px;
+  background-color: var(--color-mode);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 28px;
+  border-bottom: 1px solid var(--color-brand-1);
+}

@@ -1,0 +1,94 @@
+.header__container{
+  max-width: 100%;
+  height:80px ;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 140px;
+
+}
+.div__logo{
+
+  display: flex;
+  gap: 20px;
+}
+.logout__button{
+  width: 142px;
+  height: 48px;
+  background-color: var(--color-mode);
+  border: 1px solid var(--color-brand-1);
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-brand-1);
+  cursor: pointer;
+}
+.user__container{
+  width: 1256px;
+  height: 137px;
+  margin: 24px 140px;
+  border: 1px solid var(--color-grey-4);
+  padding: 22px 32px;
+}
+h2{
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--color-black);
+}
+p{
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-black);
+}
+.company__container{
+  width: 1256px;
+  height: 78px;
+  margin: 24px 140px;
+  background-color: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  padding-top: 20px ;
+  text-align: center;
+}
+.companyName{
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--color-mode);
+}
+.employees__container{
+  width: 1256px;
+  height: 467px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:39px 140px; 
+  padding: 44px;
+  border: 1px solid var(--color-grey-4);
+  
+}
+.ulEmployees{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 70px;
+  
+
+}
+.liEmployee{
+ width: 318px;
+ height: 95px;
+ border: 1px solid var(--color-brand-1); 
+ list-style: none;
+ padding:15px 15px ;
+ font-family: var(--font-primary);
+ font-weight: 700;
+ font-size: 20px;
+ color: var(--color-black);
+}

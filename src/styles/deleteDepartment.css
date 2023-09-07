@@ -1,0 +1,62 @@
+.modal__controler--deleteDepartment{
+  padding: 0rem;
+  border: none;
+  border-radius: 8px;
+  width: 733px;
+  height: 342px;
+  top: 8.4%;
+  left: calc(50% - 733px/2);
+  animation: apperFromTop var(--animation-duration) var(--animation-type);
+}
+
+.modal__controler--deleteDepartment::backdrop{
+  background-color: rgba(33, 37, 41, 0.5);
+}
+
+.divDeleteModal{
+  padding: 39px 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  gap: 12px;
+}
+
+.closeDeleteButton{
+  background-color:var(--color-mode) ;
+  border:0px;
+  color: var(--color-black);
+  font-family:var(--font-secundary) ;
+  font-size: 1.75rem;
+  cursor: pointer;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 640px;
+  top: 12px;
+}
+.h2{
+  font-family: var(--font-third);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  align-items: center;
+  color: var(--color-black);
+}
+
+.removeDepartment{
+  width: 422px;
+  height: 48px;
+  background-color: var(--color-action-2);
+  border: 1px solid var(--color-action-2);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 18px;
+  color:var(--color-mode);
+  position: absolute;
+left: 20%;
+right: 21.1%;
+top: 93%;
+bottom: 11.19%;
+cursor: pointer;
+}

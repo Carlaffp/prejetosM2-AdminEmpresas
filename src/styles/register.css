@@ -1,0 +1,110 @@
+
+.header__container{
+  width: 100%;
+  height:80px ;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 140px;
+
+}
+.div__logo{
+
+  display: flex;
+  gap: 20px;
+}
+
+.div__buttons{
+  display: flex;
+  gap: 15px;
+}
+.home__button{
+  width: 142px;
+  height: 48px;
+  background-color: var(--color-mode);
+  border: 1px solid var(--color-brand-1);
+  text-align: center;
+  font-family: var(--font-secundary);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-brand-1);
+  cursor: pointer;
+
+}
+
+.return__button2{
+  width: 142px;
+  height: 48px;
+  background-color: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  text-align: center;
+  font-family: var(--font-secundary);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-mode);
+  cursor: pointer;
+}
+main{
+  background-image: url('../img/imgFundo.png');
+   max-width: 100%;
+   height: calc(100vh - 80px);
+  position: relative;
+}
+.divRegister{
+  width: 506px;
+  height: 489px;
+  position: absolute;
+  top: 103px;
+  left: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color:var(--color-mode) ;
+  padding-top: 39px;
+  padding-left: 42px;
+  gap: 12px;
+  
+}
+h1{
+  font-family: var(--font-third);
+  font-weight: 700;
+  font-size: 40px;
+  color:var(--color-black) ;
+  
+}
+
+.register__input{
+  width: 422px;
+  height: 52px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 18px;
+  color:rgba(0, 0, 0, 0.5);
+  padding-left: 17px;
+  
+}
+.submit__button{
+  width: 422px;
+  height: 52px;
+  background-color: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 18px;
+  color:var(--color-mode);
+  padding-left: 17px;
+  cursor: pointer;
+}
+.return__button{
+  width: 422px;
+  height: 52px;
+  background-color: var(--color-mode);
+  border: 1px solid var(--color-brand-1);
+  font-family: var(--font-secundary);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-brand-1);
+  cursor: pointer;
+}

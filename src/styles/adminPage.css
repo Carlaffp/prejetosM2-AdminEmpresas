@@ -1,0 +1,237 @@
+.header__container{
+  width: 100vw;
+  margin: 0 auto;
+  height:80px ;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  padding: 30px 140px;
+
+}
+.div__logo{
+
+  display: flex;
+  gap: 20px;
+}
+.divLogout{
+  display: flex;
+  align-items: center;
+}
+.logout__button{
+  width: 142px;
+  height: 48px;
+  background-color: var(--color-mode);
+  border: 1px solid var(--color-brand-1);
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-brand-1);
+  cursor: pointer;
+}
+main{
+  width: 100vw;
+  margin: 0 auto;
+  padding: 30px 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divSelect{
+  width: 1237px;
+  margin-bottom: 31px;
+  justify-content: end;
+  display: flex;
+}
+.selectCompany{
+Width:288px;
+Height:52px;
+margin-top: 25px;
+padding-left: 20px;
+background-color: var(--color-brand-1);
+border: 1px solid var(--color-brand-1);
+font-family: var(--font-third);
+font-weight: 400;
+font-size: 20px;
+color: var(--color-mode);
+cursor: pointer;
+}
+
+.divDepartment{
+  max-width: 1237px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  
+}
+.creat__button{
+  width: 150px;
+  height: 50px;
+  background-color: var(--color-brand-1);
+  border: 1px solid var(--color-brand-1);
+  font-family: var(--font-primary);
+font-weight: 700;
+font-size: 18px;
+color: var(--color-mode);
+align-items: center;
+cursor: pointer;
+}
+h1{
+  font-family: var(--font-primary);
+font-weight: 700;
+font-size: 30px;
+color: var(--color-black);
+
+}
+.department__controler{
+  width: 1237px;
+  height: 385px;
+  background-color: var(--color-mode);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  
+}
+.uldepartment{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:48px 56px ;
+  gap: 43px;
+}
+
+.liDepartments{
+  width: 498px;
+  height: 196px;
+  display: flex;
+  padding: 18px 29px;
+  border: 1px solid var(--color-brand-1);
+  position: relative;
+}
+
+.divData{
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.departmentName{
+  font-family: var(--font-primary);
+font-weight: 700;
+font-size: 20px;
+color: var(--color-black);
+}
+
+p{
+  font-family: var(--font-primary);
+font-weight: 400;
+font-size: 18px;
+color: var(--color-black);
+}
+.divIcons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ position: absolute;
+  left: 430px;
+  gap: 35px;
+  
+
+}
+.seeIcon{
+  width: 22px;
+  height: 25px;
+  cursor: pointer;
+}
+.writeIcon{
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.deletIcon{
+  width: 22px;
+  height: 25px;
+  cursor: pointer;
+}
+.user__controler{
+  max-width: 1237px;
+
+}
+.usersList{
+  width: 1237px;
+  max-height: 385px;
+  background-color: var(--color-mode);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+.ulUsers{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:48px 56px ;
+  gap: 31px;
+}
+.liusers{
+  width: 498px;
+  height: 145px;
+  display: flex;
+  padding: 18px 29px;
+  position: relative;
+  border: 1px solid var(--color-brand-1);
+}
+.writeUserIcon{
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.deletUserIcon{
+  width: 22px;
+  height: 25px;
+  cursor: pointer;
+}
+.userName{
+  font-family: var(--font-primary);
+font-weight: 700;
+font-size: 20px;
+color: var(--color-black);
+}
+.companyName{
+  font-family: var(--font-primary);
+font-weight: 400;
+font-size: 18px;
+color: var(--color-black);
+}
+.title{
+  
+  margin-top: 46px;
+  margin-bottom: 31px;
+}
+.divIconsUsers{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 19px;
+  position: absolute;
+  left: 430px;
+  gap: 40px;
+  
+}
+.tagP{
+  text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 200px;
+}
