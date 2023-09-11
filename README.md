@@ -1,4 +1,4 @@
-# prejetosM2-AdminEmpresas
+# projetosM2-AdminEmpresas
 
 Nesta atividade final do módulo 2, o objetivo era desenvolver uma aplicação para auxiliar proprietários de empresas e seus colaboradores a encontrar informações relevantes de acordo com seus níveis de acesso. Era necessário criar uma interface web para consumir uma fake API e exibir as informações na tela, prestando atenção na estética, mas priorizando a funcionalidade e fluidez do processo. O principal objetivo é simular um MVP de um aplicativo de gestão de RH com dois tipos de usuários: o usuário comum (funcionário) com acesso limitado a funcionalidades, e o usuário administrador responsável por gerenciar toda a aplicação.
 O desafio principal era identificar cada usuário e determinar suas permissões na aplicação.
